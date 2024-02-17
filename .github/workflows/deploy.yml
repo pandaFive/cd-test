@@ -1,6 +1,7 @@
 name: Deploy
-  on: push:
-    branchecs: [main]
+  on:
+    push:
+      branchecs: [main]
   jobs:
     test:
       runs-on: ubuntu-latest
